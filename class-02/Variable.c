@@ -1,11 +1,18 @@
 #include <stdio.h>
 
-int main() 
-{
-    char name[] = "sabbir";  
-    int age = 18;  
-    char sub[] = "Ict";  
+int main() {
 
-    printf("This is my name: %s, age: %d, and subject: %s\n", name, age, sub);
-    return 0;
+  char name[] = "Sabbir";  
+  int studentID = 15;
+  int studentAge = 18;
+  float studentFee = 75.25;
+  char studentGrade = 'A';
+
+  printf("Student Name: %s\n",name );
+  printf("Student id: %d\n", studentID);
+  printf("Student age: %d\n", studentAge);
+  printf("Student fee: %f\n", studentFee);
+  printf("Student grade: %c", studentGrade);
+
+  return 0;
 }
